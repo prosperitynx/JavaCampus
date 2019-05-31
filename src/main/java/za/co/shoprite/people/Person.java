@@ -1,4 +1,4 @@
-package za.co.shoprite.person;
+package za.co.shoprite.people;
 
 public class Person{
 
@@ -7,12 +7,12 @@ private String secondName;
 private String surname;
 private  long idNum;
 private long contactNum;
-private long password;
+private String password;
 private String emailAddress;
 private long accountNum;
+private String userName;
 
-void login(){}
-void regitration(){}
+
 public void setName(String name){
 this.name = name;
 }
@@ -52,11 +52,11 @@ public long getContactNum(){
 return this.contactNum;
 }
 
-public  void setPassword(long password){
+public  void setPassword(String password){
 this .password = password;
 }
 
-public long getPassword(){
+public String getPassword(){
 return this.password;
 }
 
@@ -79,5 +79,16 @@ return this.accountNum;
 
 }
 
+public void  setUserName(String userName){
+this.userName = userName;
+}
+
+public String getUserName(){
+return this.userName;
+
 
 }
+
+
+}
+
