@@ -1,1 +1,33 @@
-package za.co.shoprite.application;import za.co.shoprite.people.Person;import java.util.Date;import java.util.Scanner;public class App {    public static void main(String[] args) {        Scanner scanner = new Scanner(System.in);        Date date = new Date();        Person p1 = new Person();	System.out.println("Welcome to shoprite");	for (int a = 0; a<4;a++){}	System.out.println("How many manager do you wish to register");	String howMany = scanner.nextLine();	System.out.println("register manager");	System.out.println("Creat manager userName");	String managerUserName = scanner.nextLine();	System.out.println("Enter manager name");	p1.setName("");	String name = scanner.nextLine();	System.out.println(p1.getName());	System.out.println("Enter manager second name");	p1.setSecondName("");	String secondName = scanner.nextLine();	System.out.println(p1.getSecondName());	System.out.println("Enter manager surname");	p1.setSurname("");	String surname = scanner.nextLine();	System.out.println(p1.getSurname());	System.out.println("Enter manager idNum");	long IdNum = scanner.nextLong();	System.out.println("Enter manager contactNum");	long contactNum = scanner.nextLong();	System.out.println("Enter manager accountNum");	long accountNum = scanner.nextLong();	System.out.println("Enter manager emailAdress");	String emailAdress = scanner.nextLine();	System.out.println("Enter manager password");	p1.setPassword("");	String password = scanner.nextLine();	System.out.println(p1.getPassword());	System.out.println("confim manager Mpassword");	String Mpassword = scanner.nextLine();if(Mpassword == password){System.out.println("Correct Mpassword; You've successfully registered as the manager");for(int a = 0; a<3; a++){}else if(Mpassword != password){System.out.println("Manager Password did not match");System.out.println("Re enter manager password make sure your password is the same as the first registered password");String reEnterManagerPass = scanner.nextLine();System.out.println("press 1 to login as manager or press 2 to register casheir");}}}}
+package za.co.shoprite;
+import java.util.Date;
+import java.util.Scanner;
+
+import za.co.shoprite.people.Casheir;
+import za.co.shoprite.people.Person;
+public class App {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        Date date = new Date();
+        Person person = new Casheir();
+
+System.out.println("Welcome to Shoprite");
+System.out.println("Register Manager");
+
+	person.setName("Prosper");
+	person.setPassword("3553954");
+	System.out.println(person.getName());
+
+
+
+
+
+
+
+
+
+
+
+
+}
+}        

@@ -1,22 +1,8 @@
-package za.co.shoprite.tradingStock;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+package za.co.shoprite.tradingstock;
 
 
 public class Products{
-
-
+Products [] list 
+}
+	
 }

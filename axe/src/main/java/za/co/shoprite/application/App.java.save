@@ -1,1 +1,0 @@
-package za.co.shoprite.application;import java.util.Date;import java.util.Scanner;public class App {    public static void main(String[] args) {        Scanner scanner = new Scanner(System.in);        Date date = new Date();Person p1 = new Person();System.out.println("enter name");person.setName() = scanner.nextLine;person.getName();}}

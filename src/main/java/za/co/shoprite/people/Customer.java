@@ -1,4 +1,4 @@
-package za.co.shoprite.person;
+package za.co.shoprite.people;
 
 
 public class Customer extends Person{
